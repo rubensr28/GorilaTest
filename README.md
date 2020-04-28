@@ -1,27 +1,18 @@
 # AngularHttp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
+Esse projeto foi gerado utilizando-se da tecnologia [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 
-## Development server
+## Para Testá-lo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. Rode `npm install` na raiz do projeto para instalar a node modules.
+2. Rode `ng serve` para inicia a aplicação;
+3. Vá ao endereço `http://localhost:4200/`.
 
-## Code scaffolding
+## Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+A aplicação exibe todos os dados do portifolio do cliente,sem alicar nenhum filtro, em uma tabela.
 
-## Build
+## Observações
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+1. Foi feito o desenvolvimento do metodo POST para Ações, porém apesar de retornar codigo 200 durante a chamada, a inserção não ocorre, exibindo a seguinte mensagem: `ErrorMessage: "Not allowed to insert trade".`
+2. O token JWT foi chumbado no código após ser pego com a análise da chamada de login pelo DevTools. Acredito que isso possa gerar problemas caso o JWT expire.
