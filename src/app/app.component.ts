@@ -55,8 +55,6 @@ export class AppComponent implements OnInit {
     acao.Source='M';
     acao.Price = parseFloat(acao.Price.toString().replace(",", "."));
     acao.Quantity = parseFloat(acao.Quantity.toString().replace(",", "."));
-
-    console.log("app_component: "+JSON.stringify(acao));
   }
   // limpa o formulario
   cleanForm(form: NgForm) {

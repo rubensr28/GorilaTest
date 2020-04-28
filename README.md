@@ -14,5 +14,4 @@ A aplicação exibe todos os dados do portifolio do cliente,sem alicar nenhum fi
 
 ## Observações
 
-1. Foi feito o desenvolvimento do metodo POST para Ações, porém apesar de retornar codigo 200 durante a chamada, a inserção não ocorre, exibindo a seguinte mensagem: `ErrorMessage: "Not allowed to insert trade".`
-2. O token JWT foi chumbado no código após ser pego com a análise da chamada de login pelo DevTools. Acredito que isso possa gerar problemas caso o JWT expire.
+1. O token JWT foi chumbado no código após ser pego com a análise da chamada de login pelo DevTools. Acredito que isso possa gerar problemas caso o JWT expire.
